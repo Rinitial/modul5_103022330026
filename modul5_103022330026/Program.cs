@@ -4,7 +4,7 @@ class SimpleDataBase<T>
     public List<T> storedData;
     public List<DateTime> inputDates;
 
-    public SimpleDataBase() 
+    public SimpleDataBase()
     {
         storedData = new List<T>();
         inputDates = new List<DateTime>();
@@ -21,9 +21,10 @@ class SimpleDataBase<T>
     {
         for (int i = 0; i < storedData.Count; i++)
         {
-            Console.WriteLine($"Data: {storedData[i]} , Date: {inputDates[i]} " );
+            Console.WriteLine($"Data: {storedData[i]} , Date: {inputDates[i]} ");
         }
     }
+}
     
 class PemrosesData
 {
